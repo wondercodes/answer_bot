@@ -8,6 +8,8 @@
 - OCR 识别题目
 - 调用大模型分析答案
 - 自动将答案复制到剪切板
+-支持语音“答题”触发以及快捷键触发
+
 
 ## 环境
 
@@ -16,6 +18,7 @@
 - PaddleOCR
 - OpenAI / DeepSeek / 其他大模型 API
 
+-语音需要下载语音支持库并安装https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip
 ## 安装
 
 ```bash
