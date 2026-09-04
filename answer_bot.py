@@ -27,9 +27,10 @@ class AnswerBot:
 
         try:
             image = capture_screen()
-            question = recognize_text(image)
+            #question = recognize_text(image)
             print(f"\nAnswering with {self.model.provider}...")
-            answer = self.model.answer(question)
+            #answer = self.model.answer(question)
+            answer = self.model.image_to_answer(image)
             print("\n========== AI Answer ==========")
             print(answer)
             print("===============================")
